@@ -10,7 +10,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Anjul Singhal | Software Engineer",
-  description: "Software engineer at Humanforce.",
+  description: "Software engineer and Programmer.",
 };
 
 export default function RootLayout({
