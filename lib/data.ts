@@ -89,8 +89,8 @@ export const projectsData = [
       "logos:express",
     ],
     imageUrl: cloudNotes,
-    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
-    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
+    githubLink: "https://github.com/Anjulsinghal/Cloud_Notes",
+    demoLink: "https://github.com/Anjulsinghal/Cloud_Notes",
   },
   {
     title: "Expence_Tracker",
@@ -104,8 +104,8 @@ export const projectsData = [
       "logos:react",
     ],
     imageUrl: expence,
-    urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
-    githubLink: "https://github.com/ben04rogers/ozdevs-v2",
+    urlLink: "https://github.com/Anjulsinghal/Expense_Tracker",
+    githubLink: "https://github.com/Anjulsinghal/Expense_Tracker",
   },
   {
     title: "News_Shila",
@@ -114,7 +114,7 @@ export const projectsData = [
     tags: ["react", "MongoDb",],
     icons: ["logos:react", "logos:bootstrap",],
     imageUrl: news,
-    githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
+    githubLink: "https://github.com/Anjulsinghal/News_Shila",
   },
   {
     title: "Text_Utils",
@@ -123,8 +123,8 @@ export const projectsData = [
     tags: ["react",'html', 'css', 'javascript',],
     icons: ["logos:javascript", "logos:HTML", "logos:sqlite"],
     imageUrl: text_utils,
-    githubLink: "https://github.com/ben04rogers/computer-auction",
-    urlLink: "https://techprowl.herokuapp.com",
+    githubLink: "https://github.com/Anjulsinghal/Text_Utils",
+    urlLink: "https://github.com/Anjulsinghal/Text_Utils",
   },
   // {
   //   title: "Task Manager Console App",
