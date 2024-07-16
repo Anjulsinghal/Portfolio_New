@@ -59,7 +59,7 @@ export const experiencesData = [
     date: "June 2024",
   },
   {
-    title: "Copmitative Programming | DSA with C++",
+    title: "Competitive Programming | DSA with C++",
     location: "Leetcode, Codeforces, GFG, etc",
     description:
       "I have actively engaged in competitive programming and successfully solved over 300+ coding problems across diverse platforms such as LeetCode, CodeChef, Codeforces, GeeksforGeeks, and Code360.",
