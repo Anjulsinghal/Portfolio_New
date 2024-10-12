@@ -91,7 +91,7 @@ export const projectsData = [
     ],
     imageUrl: broodl,
     githubLink: "https://github.com/Anjulsinghal/Broodl",
-    demoLink: "https://broodl-nine.vercel.app/",
+    urlLink: "https://broodl-nine.vercel.app/",
   },
   {
     title: "Cloud_Notes",
@@ -106,7 +106,7 @@ export const projectsData = [
     ],
     imageUrl: cloudNotes,
     githubLink: "https://github.com/Anjulsinghal/Cloud_Notes",
-    demoLink: "https://github.com/Anjulsinghal/Cloud_Notes",
+    // demoLink: "https://github.com/Anjulsinghal/Cloud_Notes",
   },
   {
     title: "Expence_Tracker",
@@ -120,7 +120,7 @@ export const projectsData = [
       "logos:react",
     ],
     imageUrl: expence,
-    urlLink: "https://github.com/Anjulsinghal/Expense_Tracker",
+    // urlLink: "https://github.com/Anjulsinghal/Expense_Tracker",
     githubLink: "https://github.com/Anjulsinghal/Expense_Tracker",
   },
   {
@@ -140,7 +140,7 @@ export const projectsData = [
     icons: ["logos:javascript", "logos:HTML", "logos:sqlite"],
     imageUrl: text_utils,
     githubLink: "https://github.com/Anjulsinghal/Text_Utils",
-    urlLink: "https://github.com/Anjulsinghal/Text_Utils",
+    // urlLink: "https://github.com/Anjulsinghal/Text_Utils",
   },
   // {
   //   title: "Task Manager Console App",
