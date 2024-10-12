@@ -13,6 +13,7 @@ import cloudNotes from "@/public/Cloud_Notes.png"
 import expence from "@/public/Expence_Tracker.png"
 import news from "@/public/News_Shila.png"
 import text_utils from "@/public/Text-Utils.png"
+import broodl from "@/public/broodl.png"
 
 export const links = [
   {
@@ -77,6 +78,21 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Broodl",
+    description:
+      "Broodl helps you track you daily mood! Create your mood record and see how you feel on every day of every year.",
+    tags: ["JavaScript", "Next.js", "Context API", "Firebase"],
+    icons: [
+      "logos:firebase",
+      "logos:javascript",
+      "logos:nextjs-icon",
+      "logos:tailwindcss-icon",
+    ],
+    imageUrl: broodl,
+    githubLink: "https://github.com/Anjulsinghal/Broodl",
+    demoLink: "https://broodl-nine.vercel.app/",
+  },
   {
     title: "Cloud_Notes",
     description:
