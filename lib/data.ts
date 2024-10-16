@@ -199,6 +199,10 @@ export const skillsData = [
     icon: "logos:tailwindcss-icon",
   },
   {
+    name: "Firebase",
+    icon: "logos:firebase",
+  },
+  {
     name: "Next.js",
     icon: "logos:nextjs-icon",
   },
