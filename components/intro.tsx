@@ -5,6 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { MdDescription } from "react-icons/md";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
@@ -91,6 +92,13 @@ export default function Intro() {
         >
           <span className="opacity-70">LinkedIn</span>
           <BsLinkedin className="opacity-70" />
+        </a>
+        <a
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+          href="https://drive.google.com/file/d/1YYKmq_pULkfWnIHcuK-eJSYDhgKraT9J/view?usp=sharing"
+          target="_blank"
+        >
+          Resume <MdDescription className="opacity-70" />
         </a>
       </motion.div>
     </section>
