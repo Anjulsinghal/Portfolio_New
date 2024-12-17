@@ -14,6 +14,8 @@ import expence from "@/public/Expence_Tracker.png"
 import news from "@/public/News_Shila.png"
 import text_utils from "@/public/Text-Utils.png"
 import broodl from "@/public/broodl.png"
+import health from "@/public/doctor-app.png"
+import chatty from "@/public/chat-app.png"
 
 export const links = [
   {
@@ -79,6 +81,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Health-Booker",
+    description:
+      "Health-Booker is a project designed to book appointments for health check-ups with doctors.",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDb"],
+    icons: [
+      "logos:mongodb",
+      "logos:javascript",
+      "logos:react",
+      "logos:tailwindcss-icon",
+    ],
+    imageUrl: health,
+    githubLink: "https://github.com/Anjulsinghal/HealthBooker",
+    urlLink: "https://healthbooker-cuaj.onrender.com/",
+  },
+  {
     title: "Broodl",
     description:
       "Broodl helps you track you daily mood! Create your mood record and see how you feel on every day of every year.",
@@ -106,7 +123,32 @@ export const projectsData = [
     ],
     imageUrl: cloudNotes,
     githubLink: "https://github.com/Anjulsinghal/Cloud_Notes",
+    urlLink: "https://cloud-notes-rust.vercel.app/landingpage",
     // demoLink: "https://github.com/Anjulsinghal/Cloud_Notes",
+  },
+  {
+    title: "Chatty (Chat-app)",
+    description:
+      "A real-time messaging app for seamless conversations, lightning-fast delivery, and a sleek, user-friendly experience. Stay connected, stay Chatty!",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDb"],
+    icons: [
+      "logos:mongodb",
+      "logos:express",
+      "logos:react",
+      "logos:tailwindcss-icon",
+    ],
+    imageUrl: chatty,
+    githubLink: "https://github.com/Anjulsinghal/chat-app",
+    urlLink: "https://chat-app-ansh.onrender.com/",
+  },
+  {
+    title: "News_Shila",
+    description:
+      "News_Shila is a daily news web application designed to provide users with the latest updates through an infinite scroll feature. Built for seamless browsing, it categorizes news into various sections, allowing users to easily access topics of interest. This application ensures a continuous and organized flow of information, enhancing the news consumption experience.",
+    tags: ["react", "MongoDb",],
+    icons: ["logos:react", "logos:bootstrap",],
+    imageUrl: news,
+    githubLink: "https://github.com/Anjulsinghal/News_Shila",
   },
   {
     title: "Expence_Tracker",
@@ -122,15 +164,6 @@ export const projectsData = [
     imageUrl: expence,
     // urlLink: "https://github.com/Anjulsinghal/Expense_Tracker",
     githubLink: "https://github.com/Anjulsinghal/Expense_Tracker",
-  },
-  {
-    title: "News_Shila",
-    description:
-      "News_Shila is a daily news web application designed to provide users with the latest updates through an infinite scroll feature. Built for seamless browsing, it categorizes news into various sections, allowing users to easily access topics of interest. This application ensures a continuous and organized flow of information, enhancing the news consumption experience.",
-    tags: ["react", "MongoDb",],
-    icons: ["logos:react", "logos:bootstrap",],
-    imageUrl: news,
-    githubLink: "https://github.com/Anjulsinghal/News_Shila",
   },
   {
     title: "Text_Utils",
