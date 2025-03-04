@@ -70,7 +70,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-row flex-wrap items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -95,7 +95,7 @@ export default function Intro() {
         </a>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://drive.google.com/file/d/1YYKmq_pULkfWnIHcuK-eJSYDhgKraT9J/view?usp=sharing"
+          href="https://drive.google.com/file/d/1vZHI2z9mSsch67LGl0_U1Wzr5DzOB_wa/view?usp=drive_link"
           target="_blank"
         >
           Resume <MdDescription className="opacity-70" />
